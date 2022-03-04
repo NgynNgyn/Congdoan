@@ -16,7 +16,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(122, 47, 141);
+    background-color: #2B7A78;
     font-family: 'Lobster', cursive;
     width: 100%;
 }
@@ -36,7 +36,7 @@ li a,
 
 li a:hover,
 .dropdown:hover .drop {
-    background-color: rgb(159, 65, 182);
+    background-color: #2B7A78;
 }
 
 li.dropdown {
@@ -46,7 +46,7 @@ li.dropdown {
 .content {
     display: none;
     position: absolute;
-    background-color: #6d2b8be0;
+    background-color: #2B7A78;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -61,7 +61,7 @@ li.dropdown {
 }
 
 .content a:hover {
-    background-color: #60357c;
+    background-color: #2B7A78;
 }
 
 .dropdown:hover .content {
@@ -69,5 +69,5 @@ li.dropdown {
 }
 
 .active {
-    background-color: rgb(170, 106, 117);
+    background-color: #3AAFA9;
 }
