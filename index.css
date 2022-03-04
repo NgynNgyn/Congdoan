@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+a,
+nav {
+    border-radius: 10px;
+}
+
 .hide {
     display: block;
 }
@@ -70,4 +79,11 @@ li.dropdown {
 
 .active {
     background-color: #17252A;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
